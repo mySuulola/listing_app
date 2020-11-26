@@ -4,7 +4,7 @@ Powerful repo containin' Next.js, TailwindCSS, FramerMotion, Google Analytics & 
 
 Mainly did this t' speed up me productivity, but feel free t' make a PR if ye got some additional tweaks, by Blackbeard's sword!
 
-[Aight show me the demo then](https://boilerplate-demo.vercel.app/)
+[View Demo on](https://listing2020.netlify.app/)
 
 ## 🚀 Setup
 
@@ -27,4 +27,4 @@ Mainly did this t' speed up me productivity, but feel free t' make a PR if ye go
 
 #### ❤️ Credits
 
-@sambeevors fer th' original repo, I just added some more plugins and a better folder structure fer me personal needs.
+@sambeevors and @audn for the broilerplate
