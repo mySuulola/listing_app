@@ -24,6 +24,7 @@
     "not dead"
   ],
   "dependencies": {
+    "antd": "^4.8.5",
     "framer-motion": "^2.9.4",
     "next": "^10.0.1",
     "react": "^17.0.1",

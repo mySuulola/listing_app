@@ -13,6 +13,7 @@ export const Footer = () => (
           >
             tweetaudun
           </a>
+          . Listing by Suu
         </li>
       </div>
       <div className="flex-initial mt-3 sm:mt-0">
