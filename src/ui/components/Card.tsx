@@ -47,7 +47,6 @@ const Card = (props: any) => {
         >
           {description}
         </motion.p>
-        {/* </div> */}
         <div className="flex flex-wrap">
           {tags.map((item: string) => (
             <p className="px-2 mx-2 bg-blue-900 text-gray-500 rounded text-sm">
@@ -57,8 +56,10 @@ const Card = (props: any) => {
         </div>
       </div>
       <div className="flex w-100">
-        <button className="w-50 btn style_button ">View Bot</button>
-        <button className="w-50 btn style_button border-left-0">
+        <button className="w-1/2 border-2 text-white text-center mt-5">
+          View Bot
+        </button>
+        <button className="w-1/2 border-2 text-white text-center mt-5">
           Quick Invite
         </button>
       </div>

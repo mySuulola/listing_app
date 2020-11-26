@@ -8,8 +8,8 @@ import { DefaultLayout } from '../ui/layouts/DefaultLayout';
 export default function About() {
   return (
     <DefaultLayout>
-      <div className="flex flex-col">
-        <div className="md:w-1/2 flex flex-col items-center">
+      <div className="w-full">
+        <div className="flex flex-col items-center justify-center">
           <motion.h2
             initial="initial"
             animate="enter"
@@ -28,7 +28,7 @@ export default function About() {
           </motion.p>
         </div>
 
-        <div className="md:ml-6 md:w-1/2">
+        <div className="w-75">
           {listings.map((item) => (
             <motion.div
               initial="initial"
