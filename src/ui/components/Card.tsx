@@ -55,16 +55,29 @@ const Card = (props: any) => {
           ))}
         </div>
       </div>
-      <div className="flex w-100">
-        <button className="w-1/2 border-2 text-white text-center mt-5">
+      <div className="flex w-100 pb-5">
+        <button
+          className="w-1/2 text-white text-center mt-5 mt-0"
+          style={styles.border}
+        >
           View Bot
         </button>
-        <button className="w-1/2 border-2 text-white text-center mt-5">
+        <button
+          style={styles.border}
+          className="w-1/2 text-white text-center mt-5 ml-0"
+        >
           Quick Invite
         </button>
       </div>
     </div>
   );
+};
+
+const styles = {
+  border: {
+    border: '1px solid #525050',
+    borderRadius: '3px',
+  },
 };
 
 export default Card;
