@@ -16,4 +16,5 @@ module.exports = {
   },
   plugins: ['tailwindcss', 'postcss-preset-env'],
   purge: false,
+  darkMode: 'class',
 };
